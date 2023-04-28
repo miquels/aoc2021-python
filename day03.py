@@ -51,7 +51,7 @@ def part2(input):
             list.append(digits)
     oxy = reduce_list(list, True)
     co2 = reduce_list(list, False)
-    print(f'oxy: {oxy}, co2: {co2}, life support rating: {oxy*co2}')
+    print(f'part2: oxy: {oxy}, co2: {co2}, life support rating: {oxy*co2}')
 
 
 if __name__ == "__main__":
